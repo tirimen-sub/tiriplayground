@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<header>
+    <h1>Tirimen playground</h1>
+    <nav>
+        <ul>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <form action="user-data.php" method="post" name="contact-form">
+        <section>
+            名前:<input type="text" placeholder="名字 名前">
+        </section>
+        <section>
+            性別：
+            <input type="radio" name="gender" value="男" checked>男
+            <input type="radio" name="gender" value="女">女
+            <input type="radio" name="gender" value="その他">その他
+        </section>
+        <section>
+            <input type="submit" value="送信する">
+        </section>
+
+    </form>
+    <footer>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>Copyright 2022 Tirimen</p>
+    </footer>
+</body>
+</html>
